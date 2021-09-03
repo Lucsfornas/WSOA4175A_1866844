@@ -1,16 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navigation styling */
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: royalblue;
+    background-color: #4b3d8f;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 };
 
 .Logo{
     color: #e7e5df;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 30px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke:1px  #e7e5df;
     padding: 0.5rem 1rem;
@@ -33,11 +42,11 @@ nav {
 }
 
 .NavLinks a{
-    color: #e7e5df;
+    color: #37a987;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     padding: 1rem;
     text-transform: uppercase;
     z-index: 1000;
