@@ -1,3 +1,11 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: royalblue;
+};
+
 .heading, .txt{
     align-content: center;
 };
