@@ -13,10 +13,11 @@ nav {
     background-color: #4b3d8f;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
+    font-size: 1em;
 };
 
 .Logo{
-    color: #e7e5df;
+    color: #b30f51;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 30px;
@@ -47,7 +48,8 @@ nav {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 20px;
-    padding: 1rem;
+    padding: .5rem;
+    font-weight: bold;
     text-transform: uppercase;
     z-index: 1000;
 }
@@ -124,12 +126,57 @@ opacity: 0;
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-/*Body Styling*/
-.txt{
-    align-content: center;
-};
 
-.body{
+/*Body Styling for all pages*/
+
+.BGcolour {
+    background-color: #0c0032;
+}
+
+.heading{
+color: #b30f51;
+text-align: center;
+font-size: 3.5em;
+font-family: 'Roboto', san-serif;
+}
+
+.txt{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', san-serif;
+}
+
+/*Blog page styling*/
+div.BlogNav{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    
-};
+    list-style: none;
+    background: rgba(211, 211, 211, 0.349);
+    padding: 1rem;
+    margin: 1em;
+    text-decoration: none;
+    height: auto;
+}
+
+.BlogNav button{
+background-color: #4b3d8f;
+width: 6em;
+height: auto;
+}
+
+.BlogNav button a{
+    color: #37a987;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    width: 5em;
+}
+
+.Blogheading{
+    color: #b30f51;
+text-align: center;
+font-size: 2em;
+font-family: 'Roboto', san-serif;
+}
