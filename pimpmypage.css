@@ -129,6 +129,10 @@ opacity: 0;
 
 /*Body Styling for all pages*/
 
+body{
+    background-color: #0c0032;
+}
+
 .BGcolour {
     background-color: #0c0032;
 }
