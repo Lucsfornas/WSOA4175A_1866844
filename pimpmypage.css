@@ -304,9 +304,9 @@ font-family: 'Roboto', san-serif;
             animation: animateCircle1 5s linear infinite;
         }
         .circle2, .circle3, .circle4, .circle5, .circle6{
-            position: absolute;
+            position: relative;
             border-radius: 50%;
-            border: 0.15em dashed #e7e5df;
+            border: 0.15em dashed #e7e5df2c;
         }
 
         .circle2{
