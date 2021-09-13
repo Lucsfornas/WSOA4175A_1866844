@@ -159,6 +159,11 @@ font-family: 'Roboto', san-serif;
     margin: .5em;
 }
 
+.txtcont{
+    background-color: rgba(127,255,212,0.4);
+    margin: 1em;
+}
+
 /*Blog page styling*/
 div.BlogNav{
     display: flex;
@@ -192,3 +197,57 @@ text-align: center;
 font-size: 2em;
 font-family: 'Roboto', san-serif;
 }
+
+/*Home page design*/
+
+.plat-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .itemwrap{
+        position: relative;
+    }
+    
+    .LP-BackGround{
+    height: 350px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    .imgtxtwrapper{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        margin: 0.5rem;
+    }
+    
+    .logowrap img{
+        width: 50%;
+        margin: auto;
+        display: inline-block;
+    position: relative;
+    }
+    
+    .imgtxtwrapper .subtitle a{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+    overflow: hidden;
+    }
+    
+    .imgtxtwrapper:hover .subtitle a{
+        font-weight: 600;
+        color: #b30f51;
+        text-decoration: none;
+    }
+    
+    .darken{
+        transition: 1s;
+        filter: brightness(10%);
+    }
