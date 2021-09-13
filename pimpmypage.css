@@ -144,6 +144,13 @@ font-size: 3.5em;
 font-family: 'Roboto', san-serif;
 }
 
+.heading2{
+    color: #b30f51;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto', san-serif;
+    }
+
 .txt{
     color: whitesmoke;
     text-align: center;
