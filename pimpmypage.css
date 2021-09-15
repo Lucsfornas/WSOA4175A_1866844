@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* navigation styling */
+/*--------------------------------------------------------------------------navigation styling */
 nav {
     display: flex;
     justify-content: space-around;
@@ -13,14 +13,14 @@ nav {
     background-color: #4b3d8f;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2.5em;
 };
 
 .Logo{
     color: #b30f51;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 30px;
+    font-size: 5em;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke:1px  #e7e5df;
     padding: 0.5rem 1rem;
@@ -47,7 +47,7 @@ nav {
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: .68em;
     padding: .5rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -127,7 +127,7 @@ opacity: 0;
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-/*Body Styling for all pages*/
+/*-------------------------------------------------------------------Body Styling for all pages*/
 
 body{
     background-color: #0c0032;
@@ -156,15 +156,15 @@ font-family: 'Roboto', san-serif;
     text-align: center;
     font-size: 1em;
     font-family: 'Roboto', san-serif;
-    margin: .5em;
+    margin: .75em;
 }
 
 .txtcont{
     background-color: rgba(127,255,212,0.4);
-    margin: 1em;
+    margin: 2em;
 }
 
-/*Blog page styling*/
+/*------------------------------------------------------------Blog page styling*/
 div.BlogNav{
     display: flex;
     justify-content: space-between;
@@ -194,11 +194,11 @@ height: auto;
 .Blogheading{
     color: #b30f51;
 text-align: center;
-font-size: 2em;
+font-size: 4em;
 font-family: 'Roboto', san-serif;
 }
 
-/*Home page design*/
+/*----------------------------------------------------------Home page design*/
 
 .plat-wrap{
     display: grid;
@@ -224,6 +224,8 @@ font-family: 'Roboto', san-serif;
         flex-direction: column;
         height: 100%;
         text-align: center;
+        justify-content: center;
+        align-items: center;
         margin: 0.5rem;
     }
     
@@ -242,9 +244,10 @@ font-family: 'Roboto', san-serif;
     }
     
     .imgtxtwrapper:hover .subtitle a{
-        font-weight: 600;
+        font-weight: 800;
         color: #b30f51;
         text-decoration: none;
+        font-size: 3em;
     }
     
     .darken{
@@ -252,7 +255,7 @@ font-family: 'Roboto', san-serif;
         filter: brightness(10%);
     }
 
-    /*internet art Pg style*/
+    /*---------------------------------------------------------------------------------internet art Pg style*/
     div.internetartbutton{
         display: flex;
         justify-content: center;
@@ -340,7 +343,7 @@ animation: animateBg 10s linear infinite;
             }
         }
 
-        /*2nd artwork styling*/
+        /*--------------------------------------------------------------------------2nd artwork styling*/
 section.artwork2{
     background: #042104;
 animation: animateBg 10s linear infinite;
