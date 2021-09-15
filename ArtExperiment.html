@@ -49,8 +49,10 @@
             <p class="txt">for my experiment i want to create an internet artwork that transforms shapes in a 3d space
                 through animations and animated colour changes depending on where the user clicks the mouse. i will
                 focus on getting the shapes and animations completed before focusing on the mouse click input. the first
-                experiment will look like a loading circle that changes colours. i will try and manipulate this in a 3d
-                space.
+                experiment will look like a loading circle that changes colours. i will try and manipulate this circle
+                in the 3d space. the carousel code is does not belong to me and can be found here:
+                https://codepen.io/desandro/pen/wjeBpp and i am just using it as an experiment to
+                try and apply the same code logic to the loading circle.
             </p>
         </article>
         <br>
@@ -79,7 +81,58 @@
                 <span style="--i:20;"></span>
             </div>
         </section>
+        <br>
+        <section class="txtcont">
+            <p class="txt">
+                i will attempt to integrate these two 3d spaced objects together. i am using the carosel example below
+                to experiment with how the carocel works in the 3d space and if the same rotation can be used for the
+                loading circle looking object that i have made above.
+            </p>
+        </section>
+        <br>
+        <section class="artwork2">
+            <div class="scene1">
+                <div class="carousel">
+                    <div class="carousel__cell">1</div>
+                    <div class="carousel__cell">2</div>
+                    <div class="carousel__cell">3</div>
+                    <div class="carousel__cell">4</div>
+                    <div class="carousel__cell">5</div>
+                    <div class="carousel__cell">6</div>
+                    <div class="carousel__cell">7</div>
+                    <div class="carousel__cell">8</div>
+                    <div class="carousel__cell">9</div>
+                </div>
+            </div>
+            <br>
+            <div class="carousel-options">
+                <p>
+                    <label>
+                        Cells
+                        <input class="cells-range" type="range" min="3" max="15" value="9" />
+                    </label>
+                </p>
+                <p>
+                    <button class="previous-button">Previous</button>
+                    <button class="next-button">Next</button>
+                </p>
+                <p>
+                    Orientation:
+                    <label>
+                        <input type="radio" name="orientation" value="horizontal" checked />
+                        horizontal
+                    </label>
+                    <label>
+                        <input type="radio" name="orientation" value="vertical" />
+                        vertical
+                    </label>
+                </p>
+            </div>
+            <br>
+        </section>
     </main>
+    <script src="caroseltings.js"></script>
+    <script src="MoveMe.js"></script>
 </body>
 
 </html>
