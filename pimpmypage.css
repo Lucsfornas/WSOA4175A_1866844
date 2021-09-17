@@ -199,6 +199,14 @@ font-size: 2em;
 font-family: 'Roboto', san-serif;
 }
 
+.references{
+    color: #b30f51;
+    text-align: center;
+text-decoration: underline;
+font-size: 1.2em;
+font-family: 'Roboto', san-serif;
+}
+
 /*----------------------------------------------------------Home page design*/
 
 .plat-wrap{
