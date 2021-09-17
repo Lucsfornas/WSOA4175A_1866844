@@ -206,6 +206,11 @@ text-decoration: underline;
 font-size: 1.2em;
 font-family: 'Roboto', san-serif;
 }
+.blogrefb{
+    border: 0.125em dashed #37a987;
+    padding: 0.5em;
+    margin: 3em;
+}
 
 /*----------------------------------------------------------Home page design*/
 
