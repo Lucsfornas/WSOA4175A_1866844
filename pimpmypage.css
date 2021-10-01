@@ -160,7 +160,7 @@ font-family: 'Roboto', san-serif;
 }
 
 .txtcont{
-    background-color: rgba(127,255,212,0.4);
+    background-color: rgba(127, 255, 212, 0.3);
     margin: 2em;
 }
 
@@ -212,7 +212,16 @@ font-family: 'Roboto', san-serif;
     margin: 3em;
 }
 
+.blogcont{
+    margin: 2em;
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
 /*----------------------------------------------------------Home page design*/
+
+.containerwrap{
+margin: 1em;
+}
 
 .plat-wrap{
     display: grid;
@@ -264,7 +273,7 @@ font-family: 'Roboto', san-serif;
         font-size: 3em;
     }
     
-    .darken{
+    .darkenimg{
         transition: 1s;
         filter: brightness(10%);
     }
@@ -296,7 +305,7 @@ font-family: 'Roboto', san-serif;
             width: 5em;
         }
 
-    /*my first experiment styling*/
+    /*--------------------------------------------------------------------------------my first experiment styling*/
         section.artwork{
 display: flex;
 justify-content: center;
