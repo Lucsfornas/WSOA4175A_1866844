@@ -168,6 +168,7 @@ font-family: 'Roboto', san-serif;
 /*------------------------------------------------------------Blog page styling*/
 div.BlogNav{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     list-style: none;
