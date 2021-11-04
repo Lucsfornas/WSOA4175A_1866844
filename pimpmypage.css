@@ -201,6 +201,16 @@ font-size: 2em;
 font-family: 'Roboto', san-serif;
 }
 
+.blogtxt{
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Roboto', san-serif;
+    margin: 1em;
+    line-height: 1em;
+    width: 75%;
+}
+
 .references{
     color: #b30f51;
     text-align: center;
